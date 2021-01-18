@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\phys\collision.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -33,7 +30,10 @@
     <ClCompile Include="src\entity\Entity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\util.cpp">
+    <ClCompile Include="src\game\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util.h">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -56,7 +56,10 @@
     <ClInclude Include="src\entity\Entity.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\util.h">
+    <ClInclude Include="src\engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\worldgen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

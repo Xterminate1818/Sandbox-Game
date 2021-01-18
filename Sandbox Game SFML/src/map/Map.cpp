@@ -109,7 +109,6 @@ void TileMap::fill_range(IntRect range, Uint8 id) {
 }
 
 void TileMap::add_tile(Tile t) {
-    println((int)m_tileset.size());
     m_tileset[m_tileset.size()] = t;
 }
 

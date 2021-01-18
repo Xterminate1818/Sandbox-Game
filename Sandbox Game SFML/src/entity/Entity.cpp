@@ -108,6 +108,5 @@ void Player::exit_state(Uint8 old_state) {
 void Player::enter_state(Uint8 new_state) {
 	if (new_state == states["jump"]) {
 		velocity.y = jump;
-		println("jump");
 	}
 }

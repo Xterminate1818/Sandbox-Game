@@ -148,19 +148,20 @@
     <ClCompile Include="src\entity\Entity.cpp" />
     <ClCompile Include="src\gfx\Atlas.cpp" />
     <ClCompile Include="src\debug\log.cpp" />
-    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\game\Main.cpp" />
     <ClCompile Include="src\map\Map.cpp" />
     <ClCompile Include="src\phys\collision.cpp" />
-    <ClCompile Include="src\util.cpp" />
+    <ClCompile Include="src\util.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SFML\Player\Player.h" />
+    <ClInclude Include="src\engine.h" />
     <ClInclude Include="src\entity\Entity.h" />
+    <ClInclude Include="src\game\worldgen.h" />
     <ClInclude Include="src\gfx\Atlas.h" />
     <ClInclude Include="src\debug\Log.h" />
     <ClInclude Include="src\map\Map.h" />
     <ClInclude Include="src\phys\collision.h" />
-    <ClInclude Include="src\util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
