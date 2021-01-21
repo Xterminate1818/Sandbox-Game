@@ -15,10 +15,10 @@ protected:
 	Uint8 current_state;
 	Uint8 prev_state;
 	virtual void add_state(string state);
-	virtual void do_state_logic(Time delta) {};
-	virtual void enter_state(Uint8 new_state) {}
-	virtual void exit_state(Uint8 old_state) {}
-	virtual Uint8 get_next_state() { return 0; }
+	virtual void do_state_logic(Time delta) = 0;
+	virtual void enter_state(Uint8 new_state) = 0;
+	virtual void exit_state(Uint8 old_state) = 0;
+	virtual Uint8 get_next_state() = 0;
 };
 
 

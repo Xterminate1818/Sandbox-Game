@@ -62,5 +62,8 @@
     <ClInclude Include="src\game\worldgen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\gfx\ui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

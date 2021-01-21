@@ -160,6 +160,7 @@
     <ClInclude Include="src\game\worldgen.h" />
     <ClInclude Include="src\gfx\Atlas.h" />
     <ClInclude Include="src\debug\Log.h" />
+    <ClInclude Include="src\gfx\ui.h" />
     <ClInclude Include="src\map\Map.h" />
     <ClInclude Include="src\phys\collision.h" />
   </ItemGroup>
